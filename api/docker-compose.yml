@@ -1,0 +1,13 @@
+version: "0.1"
+
+services:
+  api:
+    build: .
+    container_name: bot10_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+networks:
+  bot10_network:
+    driver: bridge

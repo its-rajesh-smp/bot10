@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Byte-compiled
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# pyright / mypy cache
+.mypy_cache/
+.pyright/
+
+# pytest
+.cache/
